@@ -1,0 +1,576 @@
+/********************************************************************
+*                       GENERAL CSS
+********************************************************************/
+
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1;
+}
+
+body {
+    text-align: center;
+    background-color: #ffff;
+    color: #3f3f3f;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 50px;
+}
+
+/********************************************************************
+*                       HEADER & NAV BAR CSS
+********************************************************************/
+
+header {
+    background-color: #f7f7f2;
+}
+
+.logotitle {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+
+.logo {
+    padding-right: 5px;
+}
+
+/*
+.logo :visited {
+    filter: invert(1);
+}*/
+
+nav {
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+.yellow {
+    color: #febf0f;
+}
+
+.yellow a {
+    color: #febf0f;
+}
+
+.nav li :hover {
+    color: #febf0f;
+}
+
+
+/********************************************************************
+*                       SECTION JUMBOTRON CSS
+********************************************************************/
+
+section {
+    background-color: #f7f7f2;
+}
+
+.jumb {
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+}
+
+.small {
+    font-size: 12px;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.lorem {
+    font-weight: lighter;
+    padding-bottom: 6rem;
+}
+
+
+/********************************************************************
+*                        ARTICLE CSS
+********************************************************************/
+
+h3 {
+    padding-top: 2rem;
+}
+
+.prod {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+.article {
+    padding: 1rem;
+    background-color: #f7f8f9;
+}
+
+.topleft {
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.topright {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.bottomleft {
+    padding-bottom: 5rem;
+}
+
+
+.target :hover {
+    background-color: #636364;
+    opacity: 0.3;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+a:hover {
+    color: #febf0f;
+}
+
+.price {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
+.greylt {
+    color: #838383;
+    text-decoration-line: line-through;
+}
+
+.btn {
+    color: white;
+    width: 180px;
+    height: 50px;
+    background-color: #3f3f3F;
+    border: #3f3f3F;
+    box-shadow: 3px 3px 3px gray;
+    margin-bottom: 6rem;
+    cursor: pointer;
+}
+
+.btn2 :hover {
+    background-color: #838383;
+    border: #838383;
+    box-shadow:none;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.product {
+    display: grid;
+    position: relative;
+}
+
+.card {
+    display: none;
+    position: absolute;
+    right: 9rem;
+    bottom: 20rem;
+}
+
+.card :hover {
+    display: grid;
+}
+
+.card span {
+    color: white;
+    border: solid 1px white;
+    padding: 0.5rem;
+}
+
+.cart {
+    filter: invert(1);
+}
+
+/********************************************************************
+*                       FOOTER PART 1 CSS
+********************************************************************/
+
+.footer1 {
+    background-color: black;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+
+.white {
+    color: white;
+}
+
+.news {
+    padding-bottom: 2rem;
+}
+
+footer p {
+    padding-bottom: 2.5rem;
+}
+
+
+/********************************************************************
+*                       FOOTER PART 2 CSS
+********************************************************************/
+
+.footer2 {
+    background-color: #3f3f3F;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    color: #767c82;
+}
+
+.contactemail {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.email {
+    color: #b9b9b8;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid 1px black;
+    border-right-color: white;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.subscribebtn {
+    width: 7.5rem;
+    height: 3.3rem;
+    background-color: #3f3f3F;
+    border-radius: 0 10px 10px 0;
+    border: solid 1px black;
+    border-left-color: #838383;
+    color: white;
+}
+
+.subscribe :hover{
+    cursor: pointer;
+    background-color: #838383;
+}
+
+/********************************************************************
+*                       CONTACT US
+********************************************************************/
+.contactus {
+    text-align: start;
+    margin-right: 12rem;
+    margin-left: 12rem;
+}
+
+.contactustitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2.5rem;
+}
+
+.contactuspara {
+    margin-bottom: 2rem;
+}
+
+.contactuspara1 {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.form {
+    padding-bottom: 2rem;
+}
+
+.formname {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+.first {
+    margin-right: 1.5rem;
+}
+
+legend {
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.firstpara {
+    margin-right: 19.5rem;
+}
+
+.submit {
+    width: 4.6rem;
+    height: 2.5rem;
+    background-color: #eee;
+    border: none;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.submithover :hover{
+    cursor: pointer;
+    background-color: #838383;
+}
+
+/********************************************************************
+*                       ABOUT US
+********************************************************************/
+
+.firstpar {
+    padding-top: 3rem;
+}
+.aboutus {
+    text-align: start;
+    margin-right: 12rem;
+    margin-left: 12rem;
+}
+
+.titleabout1 {
+    color: #030303;
+    font-weight: bolder;
+} 
+.titleabout {
+    color: #030303;
+}
+
+.aboutus p {
+    padding-bottom: 1.5rem;
+}
+
+#logoabout {
+    padding-top: 4rem;
+}
+
+
+
+
+/********************************************************************
+*                       UNDERCONSTRUCTION
+********************************************************************/
+
+.underconstruction {
+    width: 100%;
+    padding: 100px;
+}
+
+/********************************************************************
+*                       RESPONSIVE PART
+********************************************************************/
+
+/********************** MOBILE ******************************/
+
+
+/********************** TABLET ******************************/
+
+@media (max-width: 568px) {
+    .bis {
+        display: none;
+    } 
+
+    .contactus {
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    .aboutus {
+        text-align: start;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    .firstpara {
+        margin-right: 9rem;
+    }
+}
+
+@media (min-width: 568px) and (max-width:768px) {
+    .nav ul {
+        justify-content: center;
+    }
+
+    .nav a {
+        padding: 1rem;
+    }
+
+    .prodarticle {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .contactus {
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    .aboutus {
+        text-align: start;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    .firstpara {
+        margin-right: 8.5rem;
+    }
+}
+
+/********************** LG ******************************/
+
+@media (min-width: 768px) and (max-width:992px) {
+    .header {
+        display: grid;
+        grid-template-columns: auto 450px;
+    }
+
+    .nav {
+        padding-top: 10px;
+    }
+
+    .contact {
+        margin-right: 50px;
+    }
+
+    .jumbotron {
+        display: grid;
+        grid-template-columns: auto 450px;
+    }
+
+    .jumb {
+        padding-bottom: 8rem;
+    }
+
+    .welcome {
+        display: grid;
+        align-content: center;
+        text-align: start;
+        padding-left: 2rem;
+    }
+
+    .prodarticle {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .block {
+        width: 16rem;
+    }
+    
+    .block2 {
+        width: 33.5rem;
+    }
+
+    .firstpara {
+        margin-right: 15.5rem;
+    }
+}
+
+/********************** XL ******************************/
+
+@media (min-width: 992px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logotitle {
+        margin-left: 2rem;
+    }
+
+    .nav {
+        padding-top: 10px;
+    }
+
+    .contact {
+        margin-right: 50px;
+    }
+
+
+    .nav a {
+        padding: 2rem;
+    }
+
+    .jumbotron {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .jumb {
+        padding-bottom: 8rem;
+        text-align: end;
+    }
+
+    .welcome {
+        display: grid;
+        align-content: center;
+        text-align: start;
+        padding-left: 2rem;
+    }
+
+    .prodarticle {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .bottomleft {
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .bottomright {
+        padding-bottom: 4rem;
+    }
+
+    .underconstruction {
+        width: 60%;
+        padding: 100px;
+    }
+
+    .block {
+        width: 20rem;
+    }
+    
+    .block2 {
+        width: 41.5rem;
+    }
+
+    textarea {
+        width: 780px;
+    }
+}
